@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">BMMTOURZ</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="" class="home-active">HOME</a> </li>
+            <li><a href="" class="places-link" onclick="scrollToAttractivePlaces()">PLACES</a> </li>
+            <li><a href="" onclick="scrollToWatchPlaces()">VIDEOS</a> </li>
+            <li><a href="" onclick="scrollToAboutSection()">ABOUT</a> </li>
+        </ul>
+    </header>
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="images/home.jpg" alt="">
+                <div class="home-text">
+                    <span>Discover Now</span>
+                    <h1>Explore the <br>Beautiful Beach <br>of Bantayan</h1>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="images/home2.jpg" alt="">
+                <div class="home-text">
+                    <span>Disover Now</span>
+                    <h1>Explore the <br>Beautiful Mountain <br>of Badian</h1>
+                </div>
+            </div>
+            <div class="swiper-slide container">
+                <img src="images/home3.jpg" alt="">
+                <div class="home-text">
+                    <span>Disover Now</span>
+                    <h1>Explore the <br>Beautiful Historical Places <br>Here in  Cebu</h1>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="places" id="places">
+        <div class="heading">
+            <h1>Find the most <br>attractive places</h1>
+        </div>
+        <div class="places-container">
+            <div class="box">
+                <div class="place-img">
+                    <img src="images/about1.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Bantayan Island</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon' onclick="goTo('bantayancard.html')"></i>
+            </div>
+            <div class="box">
+                <div class="place-img">
+                    <img src="images/about2.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Osmeña Peak</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon' onclick="goTo('osmenapeakcard.html')"></i>
+            </div>
+            <div class="box">
+                <div class="place-img">
+                    <img src="images/about3.jpg" alt="">
+                </div>
+                <div class="place-text">
+                    <h2>Basilica Del Sto. Niño</h2>
+                </div>
+                <i class='bx bx-right-arrow-alt place-icon' onclick="goTo('stoninocard.html')"></i>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <section class="videos" id="videos">
+            <div class="heading">
+                <h1>Watch the most <br> attractive places</h1>
+            </div>
+            <div class="video-container"></div>
+            <video src="videos/video1.mp4" muted autoplay loop></video>
+            <div class="heading">
+            </div>
+            <div class="video-container"></div>
+            <video src="videos/video2.mp4" muted autoplay loop></video>
+            <div class="heading">
+            </div>
+            <div class="video-container"></div>
+            <video src="videos/video3.mp4" muted autoplay loop></video>
+        </section>
+    </section>
+    <section class="about" id="about">
+        <div class="about-text">
+            <h1>We are the largest trip <br>organizer here</h1>
+            <p>At BMMGUIDEZ, we pride ourselfves on being the largest and most trusted organizers. <br> With an extensive network, unmatched expertise, and a passion for crafting unparalleled travel experiences. <br>Join the countless travelers who have chosen BMMGUIDEZ for our unparalleled dedication to creating unforgettable journeys filled with excitement, discovery, and unmatched professionalism. </p>
+
+            <a href="largestorganizer.html" class="btn">Learn More</a>
+        </div>
+        <div class="about-img">
+            <img src="images/about1.jpg" alt=""></img>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Travel With Us</h2>
+            <p>Entrust your wanderlust in the seasoned expertise of BMMGUIDEZ, your reliable travel companion.<br> Crafted with meticulous attention to your desires, our tailored expeditions guarantee an exhilarating tapestry of experiences.<br> Delve into cultural odysseys, pulse-quickening adventures, or tranquil retreats, all meticulously designed to transform your aspirations into vibrant realities. With us as your trusted travel guide, embark on a transformative journey where each destination unfurls as a unique chapter in your remarkable tale.</p>
+            <div class="social">
+                <a href="https://www.facebook.com/Sammy1902"> <i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/19sammy02/"> <i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/JohnCena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class='bx bxl-twitter'></i></a>
+
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Social</h3>
+            <li><a href="https://www.facebook.com/Sammy1902">Facebook <i class='bx bxl-facebook'></i></a></li>
+            <li><a href="https://www.instagram.com/19sammy02/">Instagram <i class='bx bxl-instagram'></i></a></li>
+            <li><a href="https://twitter.com/JohnCena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter <i class='bx bxl-twitter'></i></a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Offices</h3>
+            <li><a href="https://www.google.com/maps/place/Sitio+Baca+Basketball+Court/@10.3381379,123.907516,17z/data=!3m1!4b1!4m6!3m5!1s0x33a99993ff8e7ec9:0xde76f06116183c52!8m2!3d10.3381326!4d123.9100909!16s%2Fg%2F11fd4h1yg4?entry=ttu">Sitio Baca</a></li>
+            <li><a href="https://www.google.com/maps/place/General+Maxilom+Ave,+Cebu+City,+6000+Cebu/@10.3115251,123.8979386,17z/data=!3m1!4b1!4m6!3m5!1s0x33a999443a8fce9d:0x4d1704aeed48b3a2!8m2!3d10.3115198!4d123.9005135!16s%2Fg%2F1tf84mhw?entry=ttu">Mango Ave.</a></li>
+            <li><a href="https://www.google.com/maps/place/Station+751/@10.3390593,123.91153,20.5z/data=!4m14!1m7!3m6!1s0x33a998e728555555:0xf3e6b737f578d0bd!2sGaisano+Country+Mall!8m2!3d10.3394189!4d123.910812!16s%2Fg%2F1hc6xjsc2!3m5!1s0x33a998e6cceb9415:0x38815fc7fdd19742!8m2!3d10.33901!4d123.912127!16s%2Fg%2F11bc7r526d?entry=ttu">District</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <li><a href="portfolio.html">Our Team</a></li>
+            <li><a href="moreaboutus.html">About Us</a></li>
+            <li><a href="blog.html">Our Blog</a></li>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; BMMTOURZ All Right Reserved.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>         

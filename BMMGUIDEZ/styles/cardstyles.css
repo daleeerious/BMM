@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.background{
+    width: 100;
+    height: 100vh; 
+    background-image: url(images/bantayan.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.nav{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: flex-start; /* Align items to the start (left) */
+  padding-left: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+a{
+    color: #fff;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.logo-and-social{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-right: 50px;
+}
+.logo{
+    width: 50px;
+    margin-right: 40px;
+    
+}
+.row{
+    display:flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card{
+    width: 220px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1:hover{
+    background-image: url(images/moalboal.jpg);
+    transform: translate(10px, -10px);
+}
+.card2:hover{
+    background-image: url(images/matutinaobeach.jpg);
+    transform: translate(10px, -10px);
+}
+.card3:hover{
+    background-image: url(images/langubbeach.jpg);
+    transform: translate(10px, -10px);
+}
+.card4:hover{
+    background-image: url(images/olanggoisland.jpg);
+    transform: translate(10px, -10px);
+}
+.card:hover{
+    transform: translate(10px, -10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #fff;
+    font-size: 15px;
+}
+
+.background1{
+    width: 100;
+    height: 100vh; 
+    background-image: url(images/home2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.mountain1:hover{
+    background-image: url(images/kan-irag.jpg);
+    transform: translate(10px, -10px);  
+}
+.mountain2:hover{
+    background-image: url(images/manunggal.jpg);
+    transform: translate(10px, -10px);  
+}
+.mountain3:hover{
+    background-image: url(images/naupa.jpg);
+    transform: translate(10px, -10px);  
+}
+.mountain4:hover{
+    background-image: url(images/kandungaw.jpg);
+    transform: translate(10px, -10px);  
+}
+
+.background2{
+    width: 100;
+    height: 100vh; 
+    background-image: url(images/home3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.nino1:hover{
+    background-image: url(images/sanpedro.jpg);
+    transform: translate(10px, -10px);  
+}
+.nino2:hover{
+    background-image: url(images/templeofleah.jpg);
+    transform: translate(10px, -10px);  
+}
+.nino3:hover{
+    background-image: url(images/mactanshrine.jpg);
+    transform: translate(10px, -10px);  
+}
+.nino4:hover{
+    background-image: url(images/desugbo.jpg);
+    transform: translate(10px, -10px);  
+}
+

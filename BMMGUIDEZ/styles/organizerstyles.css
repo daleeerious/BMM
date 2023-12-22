@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff;
+    background-image: url('images/organizer.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  .header {
+    background-color: rgba(0, 0, 0, 0); 
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .welcome-text {
+    font-size: 36px; 
+    margin-bottom: 20px;
+  }
+  
+  .home-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: rgba (0,0,0,0);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px; 
+  }
+  
+  .top-content p {
+    font-size: 30px;
+  }
+  
+  .additional-info h2,
+  .learn-more-expanded-content h2 {
+    font-size: 35px; 
+  }
+  
+  .additional-info p,
+  .learn-more-expanded-content p {
+    font-size: 25px; 
+  }
